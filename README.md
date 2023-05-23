@@ -8,7 +8,6 @@ A list of all technologies, libraries, APIs, etc. used in the project.
 
 Getting Started:
 
-https://trello.com/invite/b/dh3a4Lj9/ATTI132f7acdf3c90dc319f560e12fa8c446EB93E0FD/livelihood
 Links to the project's planning (Trello board) and the deployed app on Heroku.
 
 Unsolved Problems:

@@ -1,0 +1,24 @@
+.AuthPage {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 2vmin;
+}
+
+.AuthPage h3 {
+  margin-top: 4vmin;
+  text-align: center;
+  color: var(--text-light);
+  cursor: pointer;
+}
+
+body {
+  background-image: url("./../../../public/backgroundimg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+main {
+  margin: 200px;
+}

@@ -1,0 +1,12 @@
+.Logo2 {
+  height: 75px;
+  width: 200px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+img {
+  height: 75px;
+  width: 200px;
+}
