@@ -4,6 +4,8 @@ Introduction:
 
 Dictionary.com defines livelihood as "a means of supporting one's existence." The Livelihood App does just that! It is meant to be a source of support as you organize your daily tasks and notes. Making navigating your day-to-day a breeze.
 
+<img width="795" alt="Login Screen" src="livelihood.png">
+
 Technologies Used:
 
 A list of all technologies, libraries, APIs, etc. used in the project.
@@ -18,7 +20,11 @@ A list of all technologies, libraries, APIs, etc. used in the project.
 
 Getting Started:
 
-https://trello.com/b/dh3a4Lj9/livelihood-project
+Below is a live link for the site and the Trello board:
+[Livelihood App](https://livelihood-app.onrender.com/)
+[Trello board](https://trello.com/b/dh3a4Lj9/livelihood-project)
+
+<img width="795" alt="Entity-Relationship-Diagram (ERD)" src="entity-relationship-diagram.png">
 
 Unsolved Problems:
 
