@@ -4,7 +4,7 @@ Introduction:
 
 Dictionary.com defines livelihood as "a means of supporting one's existence." The Livelihood App does just that! It is meant to be a source of support as you organize your daily tasks and notes. Making navigating your day-to-day a breeze.
 
-<img width="795" alt="Login Screen" src="livelihood.png">
+<img width="795" alt="Login Screen" src="![livelihoodapp](https://github.com/cmcgill436/livelihood-mern-app/assets/46408214/d33c4482-d243-4975-be10-5dddb070511a)">
 
 Technologies Used:
 
@@ -24,7 +24,7 @@ Below is a live link for the site and the Trello board:
 [Livelihood App](https://livelihood-app.onrender.com/)
 [Trello board](https://trello.com/b/dh3a4Lj9/livelihood-project)
 
-<img width="795" alt="Entity-Relationship-Diagram (ERD)" src="entity-relationship-diagram.png">
+<img width="795" alt="Entity-Relationship-Diagram (ERD)" src="![Screenshot 2023-05-24 060838](https://github.com/cmcgill436/livelihood-mern-app/assets/46408214/46272b88-9abc-4470-85f3-7c01e246fa99">
 
 Unsolved Problems:
 
@@ -40,3 +40,5 @@ Unsolved Problems:
 Future Enhancements:
 
 - Customization features that allows background, font, header colors to be changed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
