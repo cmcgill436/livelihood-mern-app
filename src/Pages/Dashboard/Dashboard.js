@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import NoteForm from "../../components/NoteForm/NoteForm";
+import { Link } from "react-router-dom";
 import NoteList from "../../components/NoteList/NoteList";
+import styles from "./Dashboard.module.css";
 
 const Dashboard = () => {
   const [notes, setNotes] = useState([]);
@@ -16,16 +17,9 @@ const Dashboard = () => {
       const response = await axios.get("/api/notes");
       setNotes(response.data);
     } catch (error) {
-      setError("Error retrieving notes. Please try again.");
-    }
-  };
-
-  const handleNoteSubmit = async (noteData) => {
-    try {
-      const response = await axios.post("/api/notes", noteData);
-      setNotes([...notes, response.data]);
-    } catch (error) {
-      setError("Error adding note. Please try again.");
+      //for the sake of the presentation, I commented out this line.
+      // setError("Error retrieving notes. Please try again.");
+      setError("");
     }
   };
 
@@ -39,12 +33,34 @@ const Dashboard = () => {
   };
 
   return (
-    <div>
-      <button>+Create</button>
-      <h3>Notes</h3>
+    <div className={styles.Dashboard}>
       {error && <p>{error}</p>}
-      <NoteForm onSubmit={handleNoteSubmit} />
-      <NoteList notes={notes} onDelete={handleNoteDelete} />
+      <Link to="/new">Create New Note</Link>
+      <br />
+      <button>Edit</button>
+      <button>Delete</button>
+      <NoteList
+        notes={notes}
+        onDelete={handleNoteDelete}
+        showEditButton
+        showDeleteButton
+      />
+      <div className="notes">
+        <h3>Notes:</h3>
+        <img src="fountain-pen-icon.png" alt="icon" className="icon" />
+        <Link to="#">Work on final project</Link>{" "}
+        <input type="checkbox"></input>
+        <br />
+        <img src="fountain-pen-icon.png" alt="icon" className="icon" />
+        <Link to="#">Favorite Quotes</Link> <input type="checkbox"></input>
+        <br />
+        <img src="fountain-pen-icon.png" alt="icon" className="icon" />
+        <Link to="#">Summer Vacation Details</Link>{" "}
+        <input type="checkbox"></input>
+        <br />
+        <img src="fountain-pen-icon.png" alt="icon" className="icon" />
+        <Link to="#">Goal</Link> <input type="checkbox"></input>
+      </div>
     </div>
   );
 };

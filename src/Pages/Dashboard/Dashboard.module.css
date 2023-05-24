@@ -1,8 +1,4 @@
 .Dashboard {
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1.6fr 3.5fr 3fr;
-  grid-template-rows: 1fr;
   border-radius: 2vmin;
   color: var(--white);
 }

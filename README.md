@@ -8,8 +8,6 @@ Dictionary.com defines livelihood as "a means of supporting one's existence." Th
 
 Technologies Used:
 
-A list of all technologies, libraries, APIs, etc. used in the project.
-
 - Node.js
 - Express.js
 - React.js

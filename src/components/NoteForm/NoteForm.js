@@ -19,7 +19,7 @@ const NoteForm = ({ onSubmit }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} class="new-form">
       <input
         type="text"
         placeholder="Title"
