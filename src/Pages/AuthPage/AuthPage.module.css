@@ -1,9 +1,12 @@
 .AuthPage {
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border-radius: 2vmin;
+  padding: 90px 160px 0;
+  background-image: url("../../../public/backgroundimg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .AuthPage h3 {
@@ -11,14 +14,4 @@
   text-align: center;
   color: var(--text-light);
   cursor: pointer;
-}
-
-body {
-  background-image: url("./../../../public/backgroundimg.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
-main {
-  margin: 200px;
 }

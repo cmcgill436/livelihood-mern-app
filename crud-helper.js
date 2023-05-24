@@ -7,6 +7,7 @@ const User = require("./models/User");
 // const Item = require('./models/item');
 // const Category = require('./models/category');
 // const Order = require('./models/order');
+const noteRoutes = require("./routes/api/Note");
 
 // Local variables will come in handy for holding retrieved documents
 let user, item, category, order;
